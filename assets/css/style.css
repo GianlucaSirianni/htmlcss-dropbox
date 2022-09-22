@@ -142,7 +142,7 @@ header{
 .section1{
     width: 70%;
     margin: 5% auto;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .sec1Title{
@@ -173,11 +173,12 @@ label{
     /* height: 150px; */ /*da eliminare*/
     background-color: white;
     margin: 5px;
+    /* height: 700px; */
 
 }
 
 .cardTitle{
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
 }
 
 .cardTitle h3{
@@ -188,6 +189,8 @@ label{
 
 .cardText{
     padding: 4%;
+    border: 1px solid grey;
+    border-top: none;
 }
 
 .blueText{
@@ -223,25 +226,47 @@ label{
 .section2{
     width: 70%;
     margin: auto;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.sec2Title{
+    padding: 1%;
+    text-align: center;
+    border: 1px solid grey;
 }
 
 .section2Flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: 1px solid grey;
+    border-top: none;
 }
 
 .section2Left{
-    width: 60%;
+    width: 70%;
     padding: 5px;
-    background-color: yellowgreen;
+    padding-top: 4%;
+    /* background-color: yellowgreen; */
+}
+
+.section2Left h3{
+    margin-bottom: 4%;
+}
+
+.section2Left p{
+    margin-bottom: 8%;
+}
+
+#pMargin{
+    margin-bottom: 4%;
 }
 
 .section2Right{
-    width: 40%;
+    width: 30%;
     padding: 5px;
-    background-color: yellowgreen;
+    padding-top: 4%;
+    /* background-color: yellowgreen; */
 }
 
 /* SECTION 3 - ENTRA IN CONTATTO CON UN PARTNER DROPBOX */
@@ -249,7 +274,11 @@ label{
 .section3{
     width: 70%;
     margin: auto;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.section3Container{
+    margin-top: 10%;
 }
 
 .section3Flex{
@@ -259,11 +288,36 @@ label{
 }
 
 .section3Left{
-    background-color: red;
-    width: 40%;
+/*     background-color: red; */
+    width: 60%;
 }
 
 .section3Right{
-    background-color: red;
-    width: 40%;
+/*     background-color: red; */
+    width: 35%;
+    text-align: left;
+    padding-top: 7%;
+    padding-right: 5%;
+}
+
+.section3Right h3{
+    margin-bottom: 6%;
+}
+
+.section3Right p{
+    margin-bottom: 6%;
+}
+
+.whiteButton{
+    height: 30px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 4px;
+    color: black;
+}
+
+#sec3Img{
+    width: 100%;
 }
