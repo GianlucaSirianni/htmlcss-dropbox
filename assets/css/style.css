@@ -115,7 +115,7 @@ header{
 
 .fa-arrow-down{
     font-size: 300%;
-    margin-top: 55%;
+    margin-top: 60%;
 }
 
 /* .marginP{
@@ -170,19 +170,52 @@ label{
 
 .tariffCard{
     width: 30%;
-    height: 150px; /*da eliminare*/
+    /* height: 150px; */ /*da eliminare*/
     background-color: white;
     margin: 5px;
-    padding: 1%;
+
 }
 
 .cardTitle{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
 }
 
 .cardTitle h3{
-    padding: 3%;
+/*     margin-left: 3%; */
+    padding: 2%;
     text-align: center;
+}
+
+.cardText{
+    padding: 4%;
+}
+
+.blueText{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+.acquistaOra p{
+    display: inline-block;
+    margin-bottom: 7%;
+}
+
+.shortLine{
+    margin-left: 2%;
+    margin-bottom: 7%;
+    width: 75px;
+    height: 1px;
+    background-color: grey;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.cardText p,
+.cardText h2,
+.cardText h4{
+    margin-bottom: 7%;
 }
 
 /* SECTION 2 - ENTERPRISE ORIZZONTALE */
