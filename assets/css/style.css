@@ -89,21 +89,36 @@ header{
 }
 
 .underTitleContainer{
-    background-color: blueviolet;
+/*     background-color: blueviolet; */
 }
 
 .jumboLeft{
-    background-color: deeppink;
+/*     background-color: deeppink; */
     width: 25%;  
 }
 
 .jumboLeft p{
-    text-align: left
+    text-align: left;
+    /* margin-bottom: 5%; */
+    font-size: larger;
 }
 
+#buttonJumbo{
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+/* .marginP{
+    margin-bottom: 10%;
+} */
+
 .jumboRight{
-    background-color: deeppink;
+/*     background-color: deeppink; */
     width: 70%;
+}
+
+#jumboImg{
+    width: 100%;
 }
 
 .flexJumbo{
