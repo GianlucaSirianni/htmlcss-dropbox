@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*  HEADER */
+
+header{
+    background-color: red;
+    width: 100%;
+}
+
+.flexHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft{
+    width: 30%;
+}
+
+.headerRight{
+    width: 30%;
+}
+
+/* JUMBOTRON */
+
+.jumbotronContainer{
+    width: 100%;
+    background-color: yellow;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.jumbotron{
+    width: 80%;
+    margin: auto;
+    background-color: green;
+}
+
+.jTitleContainer{
+    background-color: blue;
+}
+
+.jumboTitle{
+    background-color: grey;
+    text-align: center;
+}
