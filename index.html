@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="flexHeader">
@@ -33,7 +36,9 @@
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente</p>
                     <div class="blueButton" id="buttonJumbo">Inizia la tua prova gratuita</div>
                     <p class="marginP">Annulla in qualsiasi momento</p>
-                    <div class="downArrow">arrow</div>
+                    <div class="downArrow">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
                 </div>
                 <div class="jumboRight">
                     <img src="./assets/img/jumbo.png" alt="" id="jumboImg">
@@ -46,11 +51,21 @@
         
         <section class="section1">
             <div class="sec1Title">
-                <h2>TITOLO</h2>
-                <p>lorem</p> <p>lorem</p>
+                <h2>Trova il piano business che fa per te</h2>
+                <input type="radio" id="fatturazione mensile">
+                <label for="fatturazione mensile">Fatturazione mensile</label>
+                <input type="radio" id="fatturazione annuale">
+                <label for="fatturazione annuale">Fatturazione annuale</label>
             </div>
             <div class="tariffContainer tariffFlex">
-                <div class="tariffCard"></div>
+                <div class="tariffCard">
+                    <div class="cardTitle">
+                        <h3><i class="fa-regular fa-user"></i> Singolo</h3> 
+                    </div>
+                    <h2>Professional</h2>
+                    <h4>€ 12.00</h4>
+                    <p>/mese</p>
+                </div>
                 <div class="tariffCard"></div>
                 <div class="tariffCard"></div>
             </div>

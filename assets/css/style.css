@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /*  HEADER */
@@ -36,7 +39,7 @@ header{
 
 .blueButtonHeader{
     height: 30px;
-    width: 70px;
+    width: 60px;
     background-color: blue;
     text-align: center;
     padding: 5px;
@@ -57,11 +60,12 @@ header{
 
 .blueButton{
     height: 30px;
-    width: 200px;
+    width: 250px;
     background-color: blue;
     text-align: center;
-    padding: 5px;
+    padding: 4px;
     color: white;
+ 
 }
 
 .jumbotronContainer{
@@ -85,7 +89,8 @@ header{
 .jumboTitle{
 /*     background-color: grey; */
 /*     text-align: center; */
-    font-size: 8rem;
+    font-size: 6rem;
+    margin-bottom: 5%;
 }
 
 .underTitleContainer{
@@ -106,6 +111,11 @@ header{
 #buttonJumbo{
     margin-bottom: 15%;
     margin-top: 15%;
+}
+
+.fa-arrow-down{
+    font-size: 300%;
+    margin-top: 55%;
 }
 
 /* .marginP{
@@ -131,12 +141,21 @@ header{
 
 .section1{
     width: 70%;
-    margin: auto;
+    margin: 5% auto;
     background-color: blue;
 }
 
 .sec1Title{
-    text-align: center;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.sec1Title h2{
+    margin-bottom: 5%;
+}
+
+label{
+    font-size: 1.2rem;
 }
 
 .tariffFlex{
@@ -152,8 +171,18 @@ header{
 .tariffCard{
     width: 30%;
     height: 150px; /*da eliminare*/
-    background-color: azure;
+    background-color: white;
     margin: 5px;
+    padding: 1%;
+}
+
+.cardTitle{
+    border-bottom: 1px solid black;
+}
+
+.cardTitle h3{
+    padding: 3%;
+    text-align: center;
 }
 
 /* SECTION 2 - ENTERPRISE ORIZZONTALE */
