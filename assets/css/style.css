@@ -31,9 +31,10 @@ header{
     justify-content: flex-end;
     justify-content: space-between;
     margin-right: 1%;
+    
 }
 
-.blueButton{
+.blueButtonHeader{
     height: 30px;
     width: 70px;
     background-color: blue;
@@ -41,6 +42,8 @@ header{
     padding: 5px;
     color: white;
 }
+
+
 
 .headerLeft{
     width: 25%;
@@ -52,9 +55,18 @@ header{
 
 /* JUMBOTRON */
 
+.blueButton{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
 .jumbotronContainer{
     width: 100%;
-    background-color: yellow;
+    background-color: lightblue;
     padding-top: 2%;
     /* padding-bottom: 2%; */
 }
@@ -62,16 +74,18 @@ header{
 .jumbotron{
     width: 80%;
     margin: auto;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .jTitleContainer{
-    background-color: blue;
+   /*  width: 50%; */
+    margin: auto;
 }
 
 .jumboTitle{
-    background-color: grey;
-    text-align: center;
+/*     background-color: grey; */
+/*     text-align: center; */
+    font-size: 8rem;
 }
 
 .underTitleContainer{
@@ -80,11 +94,16 @@ header{
 
 .jumboLeft{
     background-color: deeppink;
-    width: 35%;
+    width: 25%;  
 }
+
+.jumboLeft p{
+    text-align: left
+}
+
 .jumboRight{
     background-color: deeppink;
-    width: 60%;
+    width: 70%;
 }
 
 .flexJumbo{
