@@ -66,3 +66,82 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* SECTION 1 - TROVA IL PIANO BUSINESS CHE FA PER TE */
+
+.section1{
+    width: 70%;
+    margin: auto;
+    background-color: blue;
+}
+
+.sec1Title{
+    text-align: center;
+}
+
+.tariffFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tariffContainer{
+    margin-bottom: 3%;
+}
+
+.tariffCard{
+    width: 30%;
+    height: 150px; /*da eliminare*/
+    background-color: azure;
+    margin: 5px;
+}
+
+/* SECTION 2 - ENTERPRISE ORIZZONTALE */
+
+.section2{
+    width: 70%;
+    margin: auto;
+    background-color: blue;
+}
+
+.section2Flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section2Left{
+    width: 60%;
+    padding: 5px;
+    background-color: yellowgreen;
+}
+
+.section2Right{
+    width: 40%;
+    padding: 5px;
+    background-color: yellowgreen;
+}
+
+/* SECTION 3 - ENTRA IN CONTATTO CON UN PARTNER DROPBOX */
+
+.section3{
+    width: 70%;
+    margin: auto;
+    background-color: blue;
+}
+
+.section3Flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section3Left{
+    background-color: red;
+    width: 40%;
+}
+
+.section3Right{
+    background-color: red;
+    width: 40%;
+}
