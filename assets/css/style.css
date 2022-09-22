@@ -7,8 +7,9 @@
 /*  HEADER */
 
 header{
-    background-color: red;
+    background-color: white;
     width: 100%;
+    margin: 1%;
 }
 
 .flexHeader{
@@ -16,12 +17,37 @@ header{
     justify-content: space-between;
 }
 
+.flexLeft{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    justify-content: space-between;
+}
+
+
+.flexRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-right: 1%;
+}
+
+.blueButton{
+    height: 30px;
+    width: 70px;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
 .headerLeft{
-    width: 30%;
+    width: 25%;
 }
 
 .headerRight{
-    width: 30%;
+    width: 25%;
 }
 
 /* JUMBOTRON */
