@@ -339,7 +339,8 @@ label{
 .cardsContainer{
     width: calc(100% / 3);
     /* margin: 15px; */
-    padding: 2%;
+    padding-right: 2%;
+    margin-bottom: 1%;
 }
 
 .flexCard{
@@ -353,5 +354,15 @@ label{
         max-height:100%; */
         width: 100%;
         object-fit: contain;
-    }
+}
+
+.sec4Title{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.sec4Title h3{
+    font-size: 2rem;
+}
 
