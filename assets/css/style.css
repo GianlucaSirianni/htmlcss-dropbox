@@ -328,3 +328,30 @@ label{
 #sec3Img{
     width: 100%;
 }
+
+/* SECTION 4 - ESEGUI PIU' OPERAZIONI CON DROPBOX BUSINESS */
+
+.section4{
+    width: 70%;
+    margin: auto;
+}
+
+.cardsContainer{
+    width: calc(100% / 3);
+    /* margin: 15px; */
+    padding: 2%;
+}
+
+.flexCard{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.imageSec4{
+    /*     max-width:100%;
+        max-height:100%; */
+        width: 100%;
+        object-fit: contain;
+    }
+
