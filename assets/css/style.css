@@ -366,3 +366,21 @@ label{
     font-size: 2rem;
 }
 
+/* SECTION 4.5 */
+
+.sec5Title{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+
+.sec5Title h3{
+    font-size: 2rem;
+}
+
+.sec5Title p{
+    color: blue;
+    text-decoration-line: underline;
+    margin-top: 5%;
+}
