@@ -90,11 +90,13 @@ header{
 /*     background-color: grey; */
 /*     text-align: center; */
     font-size: 6rem;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .underTitleContainer{
 /*     background-color: blueviolet; */
+    position: relative;
+    top: 80px;
 }
 
 .jumboLeft{
@@ -115,7 +117,7 @@ header{
 
 .fa-arrow-down{
     font-size: 300%;
-    margin-top: 60%;
+    margin-top: 40%;
 }
 
 /* .marginP{
@@ -138,6 +140,11 @@ header{
 }
 
 /* SECTION 1 - TROVA IL PIANO BUSINESS CHE FA PER TE */
+
+.indentProva{
+    text-indent: -0.6em;
+    padding-left: 1em;
+}
 
 .section1{
     width: 70%;
