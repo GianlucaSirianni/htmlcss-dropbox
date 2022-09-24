@@ -425,7 +425,7 @@ label{
 }
 
 #lightBlueBox{
-    background-color: lightblue;
+    background-color: lightblue; 
 }
 
 #redBox{
@@ -455,4 +455,30 @@ label{
 .flexImg{
     display: flex;
     justify-content: center;
+}
+
+.shortLine2{
+    /* margin-left: 2%;
+    margin-bottom: 7%; */
+    width: 25%;
+    height: 1px;
+    background-color: grey;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.centerBox{
+    padding: 10%;
+    width: calc(100vw / 3); 
+    height: calc(100vw / 3);
+    background-color: whitesmoke;
+}
+
+.citation{
+    margin-bottom: 20%;
+}
+
+.centerBox span,
+.centerBox p{
+    font-size: 1.2rem;
 }
