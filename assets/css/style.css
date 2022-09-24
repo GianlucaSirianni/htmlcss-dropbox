@@ -366,7 +366,7 @@ label{
     font-size: 2rem;
 }
 
-/* SECTION 4.5 */
+/* SECTION 5 */
 
 .sec5Title{
     width: 70%;
@@ -383,4 +383,70 @@ label{
     color: blue;
     text-decoration-line: underline;
     margin-top: 5%;
+}
+
+
+/* inizio box colorati */
+
+
+.section5Container{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.threeBoxContainer{
+    /* border: 1px solid blue; */
+    width: calc(100vw / 3); 
+    height: calc(100vw / 3) 
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partnerBox{
+    /* border: 1px solid green; */
+    width: 50%; 
+}
+
+.partnerFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#greenBox{
+    background-color: green;
+}
+
+#bordeauxBox{
+    background-color: brown;
+}
+
+#lightBlueBox{
+    background-color: lightblue;
+}
+
+#redBox{
+    background-color: red;
+}
+
+#darkRedBox{
+    background-color: darkred;
+}
+
+#azureBox{
+    background-color: azure;
+}
+
+#blueBox{
+    background-color: blue;
+}
+
+#yellowBox{
+    background-color: yellow;
+}
+
+.partnerBox img{
+    width: 50%;
 }
