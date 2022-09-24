@@ -372,6 +372,7 @@ label{
     width: 70%;
     margin: auto;
     margin-top: 10%;
+    margin-bottom: 10%;
     
 }
 
@@ -449,4 +450,9 @@ label{
 
 .partnerBox img{
     width: 50%;
+}
+
+.flexImg{
+    display: flex;
+    justify-content: center;
 }
