@@ -423,7 +423,7 @@ label{
 }
 
 #lightBlueBox{
-    background-color: lightblue; 
+    background-color: lightskyblue; 
 }
 
 #redBox{
@@ -479,4 +479,43 @@ label{
 .centerBox span,
 .centerBox p{
     font-size: 1.2rem;
+}
+
+
+/*  SEZIONE 6*/
+
+.section6Container{
+    background-color: lightblue;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+#largeWhiteButton{
+    height: 35px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+    color: black;
+    margin: auto;
+}
+
+.section6Flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6{
+    width: 70%;
+    margin: auto;
+
+}
+
+.section6 h3{
+    font-size: 3rem;
+    color: brown;
+}
+
+.sec6Left{
+    width: 45%;
 }
