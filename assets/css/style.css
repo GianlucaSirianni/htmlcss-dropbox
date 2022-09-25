@@ -392,11 +392,10 @@ label{
 
 .section5Container{
     width: 100%;
-    /* border: 1px solid red; */
+
 }
 
 .threeBoxContainer{
-    /* border: 1px solid blue; */
     width: calc(100vw / 3); 
     height: calc(100vw / 3) 
 }
@@ -407,7 +406,6 @@ label{
 }
 
 .partnerBox{
-    /* border: 1px solid green; */
     width: 50%; 
 }
 
