@@ -519,3 +519,26 @@ label{
 .sec6Left{
     width: 45%;
 }
+
+/* F.A.Q. */
+
+.faqContainer{
+    width: 100%;
+}
+
+.faqSection{
+    border-bottom: 2px solid black;
+    width: 70%;
+    margin: auto;
+}
+
+.faqSection h3{
+    font-size: 3rem;
+}
+
+.faqSection h3,
+.faqSection p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
