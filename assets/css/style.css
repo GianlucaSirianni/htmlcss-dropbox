@@ -63,8 +63,9 @@ header{
 /* JUMBOTRON */
 
 .blueButton{
-    height: 30px;
-    width: 250px;
+    height: 40px;
+    width: 80%;
+    margin: auto;
     background-color: blue;
     text-align: center;
     padding: 4px;
@@ -118,6 +119,12 @@ header{
 #buttonJumbo{
     margin-bottom: 15%;
     margin-top: 15%;
+    height: 40px;
+    width: 80%;
+    background-color: blue;
+    text-align: center;
+    padding: 4px;
+    color: white;
 }
 
 .fa-arrow-down{
@@ -125,12 +132,7 @@ header{
     margin-top: 40%;
 }
 
-/* .marginP{
-    margin-bottom: 10%;
-} */
-
 .jumboRight{
-/*     background-color: deeppink; */
     width: 70%;
 }
 
@@ -262,7 +264,7 @@ label{
 
 .section2Left{
     width: 70%;
-    padding: 5px;
+    padding: 2%;
     padding-top: 4%;
     /* background-color: yellowgreen; */
 }
@@ -327,7 +329,8 @@ label{
 
 .whiteButton{
     height: 30px;
-    width: 250px;
+    width: 80%;
+    /* margin: auto; */
     background-color: white;
     border: 1px solid black;
     text-align: center;
@@ -427,6 +430,8 @@ label{
 
 #greenBox{
     background-color: green;
+    border: 20px solid lightgreen;
+    border-style: inset;
 }
 
 #bordeauxBox{
@@ -503,7 +508,7 @@ label{
 
 #largeWhiteButton{
     height: 35px;
-    width: 300px;
+    width: 50%;
     background-color: white;
     text-align: center;
     padding: 4px;
