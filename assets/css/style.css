@@ -146,6 +146,10 @@ header{
 
 /* SECTION 1 - TROVA IL PIANO BUSINESS CHE FA PER TE */
 
+input{
+    background-color: blueviolet;
+}
+
 .indentProva{
     text-indent: -0.6em;
     padding-left: 1em;
@@ -617,4 +621,33 @@ li{
     background-color: grey;
     margin-top: 7%;
     margin-bottom: 4%;
+}
+
+
+/* prove radio button */
+
+input[type="radio"]:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    border: 2px solid black;
+}
+
+input[type="radio"]:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: white;
+    content: '';        
+    border: 5px solid blue;
+}
+
+label{
+    margin-left: 5px;
 }
