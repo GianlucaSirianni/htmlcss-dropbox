@@ -53,6 +53,12 @@ header{
     color: white;
 }
 
+.blueButtonHeader a{
+    color: white;
+    text-decoration-line: none;
+}
+
+
 .blueButtonHeader:hover{
     background-color: lightskyblue;
 }
@@ -446,7 +452,7 @@ label{
 }
 
 #azureBox{
-    background-color: azure;
+    background-color: rgb(166, 197, 197);
 }
 
 #blueBox{
@@ -454,7 +460,7 @@ label{
 }
 
 #yellowBox{
-    background-color: yellow;
+    background-color: rgb(220, 220, 20);
 }
 
 .partnerBox img{
@@ -464,6 +470,10 @@ label{
 .flexImg{
     display: flex;
     justify-content: center;
+}
+
+.flexImg img{
+    filter: invert();
 }
 
 .shortLine2{
