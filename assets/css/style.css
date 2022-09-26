@@ -15,11 +15,20 @@ header{
     position: fixed;
     z-index: 1;
     top: 0;
-    padding: 2%;
 }
 
 .hoverMe:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
+}
+
+.hoverMe,
+.headerLeft a{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.blueButtonHeader{
+    margin-top: 49px;
 }
 
 .flexHeader{
@@ -62,8 +71,6 @@ header{
 .blueButtonHeader:hover{
     background-color: lightskyblue;
 }
-
-
 
 .headerLeft{
     width: 25%;
