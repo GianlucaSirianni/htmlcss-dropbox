@@ -560,6 +560,29 @@ label{
     margin-bottom: 3%;
 }
 
+.faqSection i,
+.faqSectionNoBorder i{
+    margin-left: 50%;
+}
+
+.faqHover2{
+    display: none;
+}
+
+/* .faqSection:hover .faqHover1{
+    display: none;
+} */
+
+.faqSection:hover .faqHover2{
+    display: block;
+}
+
+.faqSectionNoBorder:hover .faqHover2{
+    display: block;
+}
+
+
+
 /* FOOTER */
 
 .footerContainer{
