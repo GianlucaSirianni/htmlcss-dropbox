@@ -356,6 +356,7 @@ label{
 
 .whiteButton:hover{
     background-color: lightgrey;
+    color: white;
 }
 
 
@@ -507,6 +508,11 @@ label{
     width: calc(100vw / 3); 
     height: calc(100vw / 3);
     background-color: whitesmoke;
+    overflow: auto;
+}
+
+.centerBox img{
+    width: 50%;
 }
 
 .citation{
@@ -539,6 +545,7 @@ label{
 
 #largeWhiteButton:hover{
     background-color: lightgray;
+    color: white;
 }
 
 
@@ -596,21 +603,31 @@ label{
     margin-left: 50%;
 }
 
+.faqText{
+    margin-top: 30px;
+}
+
 .faqHover2{
     display: none;
 }
 
-/* .faqSection:hover .faqHover1{
+.faqSection:hover .faqHover1{
     display: none;
-} */
+}
 
 .faqSection:hover .faqHover2{
     display: block;
 }
 
+.faqSectionNoBorder:hover .faqHover1{
+    display: none;
+}
+
 .faqSectionNoBorder:hover .faqHover2{
     display: block;
 }
+
+
 
 
 
